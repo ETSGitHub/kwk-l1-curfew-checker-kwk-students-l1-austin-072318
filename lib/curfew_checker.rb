@@ -38,7 +38,7 @@ def platinum_curfew_checker(current_time, curfew_time)
   curfew_time = gets
   diff = curfew_time - current_time
   if current_time > 11
-    puts"You are in trouble if it is 11 and curfew is at 11"
+    puts"You are in trouble if it is later than your curfew, which is 11"
   elsif current_time == 11
     puts "Apparate Now"
   else
