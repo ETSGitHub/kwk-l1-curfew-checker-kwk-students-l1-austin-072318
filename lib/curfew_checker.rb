@@ -28,7 +28,7 @@ def deluxe_curfew_checker(time)
   if time > 11
     puts"You are in trouble"
   elsif time == 11
-    puts "Apparate Now"
+    puts "Time to aparate"
   else
     puts "You can keep having fun with the #{diff} time you have left"
   end
@@ -40,8 +40,8 @@ def platinum_curfew_checker(current_time, curfew_time)
   if current_time > 11
     puts"You are in trouble if it is later than your curfew, which is 11"
   elsif current_time == 11
-    puts "Apparate Now"
+    puts "Time to aparate"
   else
-    puts " you have #{diff} hours to get home"
+    puts "You can keeo having fun. It is #{current_time} and you have #{diff} hours left"
   end
 end
